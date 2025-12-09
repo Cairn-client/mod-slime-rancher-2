@@ -1,6 +1,6 @@
 using SR2MP.Packets.Utils;
 
-namespace SR2MP.Packets;
+namespace SR2MP.Packets.S2C;
 
 public struct ConnectAckPacket : IPacket
 {
