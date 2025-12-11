@@ -1,7 +1,8 @@
 using SR2MP.Packets.Utils;
 
-namespace SR2MP.Packets.S2C;
+namespace SR2MP.Packets.C2S;
 
+// We should make the PlayerId come from the endpoint of the sender, if possible
 public struct PlayerLeavePacket : IPacket
 {
     public byte Type { get; set; }
